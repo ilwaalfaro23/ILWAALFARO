@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ILWAALFARO | Web Developer & Digital Creator</title>
+  <meta name="description" content="Personal branding website ILWAALFARO - Web Developer, Mahasiswa, Digital Creator"/>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">ILWA<span class="accent">ALFARO</span></a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content fade-in">
+      <h1 class="hero-title">ILWA<span class="accent">ALFARO</span></h1>
+      <p class="hero-tagline">Web Developer | Mahasiswa | Digital Creator</p>
+      <p class="hero-desc">
+        Saya adalah seorang pengembang web yang berfokus pada pembuatan website modern, 
+        responsif, dan user-friendly. Dengan passion di bidang teknologi dan kreativitas digital, 
+        saya siap membantu mewujudkan ide Anda menjadi kenyataan.
+      </p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn btn-primary">Lihat Portofolio</a>
+        <a href="https://wa.me/6285361715788" target="_blank" class="btn btn-outline">
+          <i class="fab fa-whatsapp"></i> Hubungi Saya
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about" class="scroll-down" aria-label="Scroll down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2 class="section-title fade-in">About <span class="accent">Me</span></h2>
+      <div class="about-content">
+        <div class="about-image fade-in">
+          <img src="assets/images/profile.jpg" alt="Profile ILWAALFARO" onerror="this.src='https://via.placeholder.com/300x300/1a1a2e/ffffff?text=IA'">
+        </div>
+        <div class="about-text fade-in">
+          <h3>Halo, Saya Ilwa Alfaro 👋</h3>
+          <p>
+            Seorang mahasiswa yang memiliki passion besar dalam dunia pengembangan web dan kreativitas digital. 
+            Saya percaya bahwa teknologi yang baik harus disertai dengan desain yang indah dan pengalaman pengguna yang menyenangkan.
+          </p>
+          <p>
+            Dengan kombinasi keterampilan teknis dan soft skill, saya berkomitmen untuk memberikan solusi digital 
+            yang tidak hanya berfungsi dengan baik, tetapi juga memberikan nilai tambah bagi pengguna.
+          </p>
+          
+          <div class="skills">
+            <h4><i class="fas fa-code"></i> Technical Skills</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">PHP Native</span>
+              <span class="skill-tag">CodeIgniter 4</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">UI/UX Design</span>
+            </div>
+          </div>
+          
+          <div class="skills">
+            <h4><i class="fas fa-brain"></i> Soft Skills</h4>
+            <div class="skill-tags">
+              <span class="skill-tag soft">Problem Solving</span>
+              <span class="skill-tag soft">Communication</span>
+              <span class="skill-tag soft">Team Work</span>
+              <span class="skill-tag soft">Time Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container">
+      <h2 class="section-title fade-in">My <span class="accent">Portfolio</span></h2>
+      <p class="section-subtitle fade-in">Beberapa project yang telah saya kerjakan</p>
+      
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <article class="portfolio-card fade-in">
+          <div class="portfolio-image">
+            <img src="assets/images/project1.jpg" alt="Website CRM" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/ffffff?text=CRM+Project'">
+            <div class="portfolio-overlay">
+              <a href="#" class="btn btn-sm">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Website CRM</h3>
+            <p>Sistem manajemen hubungan pelanggan dengan fitur dashboard analitik dan notifikasi real-time.</p>
+            <div class="portfolio-tech">
+              <span>PHP</span><span>CodeIgniter 4</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="portfolio-card fade-in">
+          <div class="portfolio-image">
+            <img src="assets/images/project2.jpg" alt="Website Rental Mobil" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Rental+Mobil'">
+            <div class="portfolio-overlay">
+              <a href="#" class="btn btn-sm">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Website Rental Mobil</h3>
+            <p>Platform pemesanan kendaraan online dengan sistem pembayaran terintegrasi dan tracking ketersediaan.</p>
+            <div class="portfolio-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="portfolio-card fade-in">
+          <div class="portfolio-image">
+            <img src="assets/images/project3.jpg" alt="Landing Page Modern" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Landing+Page'">
+            <div class="portfolio-overlay">
+              <a href="#" class="btn btn-sm">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Landing Page Modern</h3>
+            <p>Desain landing page konversi tinggi dengan animasi halus dan optimasi kecepatan loading.</p>
+            <div class="portfolio-tech">
+              <span>Tailwind CSS</span><span>GSAP</span><span>Responsive</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="portfolio-card fade-in">
+          <div class="portfolio-image">
+            <img src="assets/images/project4.jpg" alt="Aplikasi Laporan Keuangan" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Keuangan+App'">
+            <div class="portfolio-overlay">
+              <a href="#" class="btn btn-sm">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Aplikasi Laporan Keuangan</h3>
+            <p>Sistem pencatatan keuangan UMKM dengan fitur export laporan dan visualisasi data interaktif.</p>
+            <div class="portfolio-tech">
+              <span>PHP</span><span>Chart.js</span><span>Bootstrap</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="portfolio-card fade-in">
+          <div class="portfolio-image">
+            <img src="assets/images/project5.jpg" alt="Website Undangan Digital" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Undangan+Digital'">
+            <div class="portfolio-overlay">
+              <a href="#" class="btn btn-sm">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Website Undangan Digital</h3>
+            <p>Undangan pernikahan digital elegan dengan fitur RSVP, galeri foto, dan integrasi Google Maps.</p>
+            <div class="portfolio-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="portfolio-card fade-in">
+          <div class="portfolio-image">
+            <img src="assets/images/project6.jpg" alt="Company Profile" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Company+Profile'">
+            <div class="portfolio-overlay">
+              <a href="#" class="btn btn-sm">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Company Profile</h3>
+            <p>Website profil perusahaan dengan desain profesional, SEO friendly, dan mudah dikelola via CMS.</p>
+            <div class="portfolio-tech">
+              <span>CodeIgniter 4</span><span>MySQL</span><span>AdminLTE</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2 class="section-title fade-in">My <span class="accent">Services</span></h2>
+      <p class="section-subtitle fade-in">Layanan yang saya tawarkan untuk membantu kebutuhan digital Anda</p>
+      
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>Pengembangan website custom dengan teknologi terkini, responsif, dan optimal untuk semua perangkat.</p>
+        </div>
+        
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Desain antarmuka yang intuitif dan menarik dengan fokus pada pengalaman pengguna yang menyenangkan.</p>
+        </div>
+        
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Landing Page</h3>
+          <p>Pembuatan landing page konversi tinggi untuk kampanye marketing, produk, atau event khusus.</p>
+        </div>
+        
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>Maintenance Website</h3>
+          <p>Layanan perawatan dan update website secara berkala untuk menjaga performa dan keamanan optimal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section-title fade-in">Get In <span class="accent">Touch</span></h2>
+      <p class="section-subtitle fade-in">Siap mengerjakan project Anda? Hubungi saya sekarang!</p>
+      
+      <div class="contact-wrapper">
+        <div class="contact-info fade-in">
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/6285361715788" target="_blank">+62 853-6171-5788</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:ilwaalfaro41@gmail.com">ilwaalfaro41@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Lokasi</h4>
+              <p>Tanjung Balai Asahan, Sumatera Utara</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://instagram.com/ilwa_94" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/ilwaalfaro23" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/raden-ilwa-nuddin-2987b329a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/ilwaalfaro" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        
+        <form class="contact-form fade-in" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tulis pesan Anda di sini..."></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fas fa-paper-plane"></i> Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 <span class="accent">ILWAALFARO</span>. All Rights Reserved.</p>
+      <p class="footer-note">Dibuat dengan <i class="fas fa-heart"></i> dan kopi ☕</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
